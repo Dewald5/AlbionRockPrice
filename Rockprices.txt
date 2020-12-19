@@ -1,0 +1,138 @@
+Flat Slate prices:
+Caerleon
+ Min:1539 Max:1540
+Bridgewatch
+ Min:1694 Max:1993
+Lymhurst
+ Min:1578 Max:1826
+Fort Sterling
+ Min:1668 Max:1740
+Thetford
+ Min:1584 Max:1899
+Martlock
+ Min:1580 Max:1900
+
+Slate .1 prices:
+Caerleon
+ Min:2660 Max:2979
+Bridgewatch
+ Min:2948 Max:2950
+Lymhurst
+ Min:2606 Max:2606
+Fort Sterling
+ Min:2867 Max:2867
+Thetford
+ Min:2778 Max:2778
+Martlock
+ Min:3019 Max:3308
+
+Slate .2 prices:
+Caerleon
+ Min:5800 Max:6000
+Bridgewatch
+ Min:5447 Max:5447
+Lymhurst
+ Min:5001 Max:5001
+Fort Sterling
+ Min:5781 Max:5781
+Thetford
+ Min:4909 Max:4909
+Martlock
+ Min:4735 Max:4735
+
+Slate .3 prices:
+Caerleon
+ Min:12329 Max:12992
+Bridgewatch
+ Min:12193 Max:12193
+Lymhurst
+ Min:12195 Max:13934
+Fort Sterling
+ Min:14260 Max:14400
+Thetford
+ Min:12000 Max:14000
+Martlock
+ Min:10110 Max:10110
+
+Slate Block prices:
+Caerleon
+ Min:4545 Max:4795
+Bridgewatch
+ Min:4190 Max:4190
+Lymhurst
+ Min:4318 Max:4318
+Fort Sterling
+ Min:4446 Max:4746
+Thetford
+ Min:4485 Max:4485
+Martlock
+ Min:4239 Max:4239
+Flat Basalt prices:
+Caerleon
+ Min:5111 Max:5745
+Bridgewatch
+ Min:5697 Max:53994
+Lymhurst
+ Min:5578 Max:6300
+Fort Sterling
+ Min:5346 Max:7000
+Thetford
+ Min:5496 Max:5496
+Martlock
+ Min:5841 Max:10966
+
+Basalt .1 prices:
+Caerleon
+ Min:19995 Max:29994
+Bridgewatch
+ Min:11353 Max:11359
+Lymhurst
+ Min:9930 Max:9930
+Fort Sterling
+ Min:10900 Max:10990
+Thetford
+ Min:9853 Max:9853
+Martlock
+ Min:11490 Max:11500
+
+Basalt .2 prices:
+Caerleon
+ Min:28990 Max:28990
+Bridgewatch
+ Min:20004 Max:20004
+Lymhurst
+ Min:18999 Max:18999
+Fort Sterling
+ Min:20801 Max:20801
+Thetford
+ Min:16129 Max:16129
+Martlock
+ Min:22969 Max:22971
+
+Basalt .3 prices:
+Caerleon
+ Min:79993 Max:79993
+Bridgewatch
+ Min:45930 Max:45967
+Lymhurst
+ Min:41559 Max:41559
+Fort Sterling
+ Min:45995 Max:47500
+Thetford
+ Min:80000 Max:80000
+Martlock
+ Min:40802 Max:40802
+
+Basalt Block prices:
+Caerleon
+ Min:17289 Max:17291
+Bridgewatch
+ Min:16965 Max:17500
+Lymhurst
+ Min:17583 Max:17583
+Fort Sterling
+ Min:18474 Max:41599521
+Thetford
+ Min:17335 Max:17335
+Martlock
+ Min:17030 Max:17083
