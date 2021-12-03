@@ -1,0 +1,50 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Dec  2 09:49:20 2021
+
+@author: Dewald
+"""
+import requests 
+import json
+
+x = 0
+
+SPrice = 1595   #Basalt price for deal
+S1Price = 3190   #7.1 Basalt
+S2Price = 6380   #7.2 Basalt
+S3Price = 12760   #7.3 Basalt
+
+BPrice = 1000   #Basalt price for deal
+B1Price = 10064   #7.1 Basalt
+B2Price = 20128   #7.2 Basalt
+B3Price = 40256   #7.3 Basalt
+
+MPrice = 30000 #Marble Price for deal
+M1Price = 33874 
+M2Price = 67748
+M3Price = 135496
+
+Prices = [SPrice,S1Price,S2Price,S3Price,BPrice,B1Price,B2Price,B3Price,MPrice,M1Price,M2Price,M3Price]       
+def Slate(): 
+ Rockn = ["T6_ROCK","T6_ROCK_LEVEL1@1","T6_ROCK_LEVEL2@2","T6_ROCK_LEVEL3@3","T7_ROCK","T7_ROCK_LEVEL1@1","T7_ROCK_LEVEL2@2","T7_ROCK_LEVEL3@3","T8_ROCK","T8_ROCK_LEVEL1@1","T8_ROCK_LEVEL2@2","T8_ROCK_LEVEL3@3"]
+ 
+ for y in Rockn:
+     response = requests.get("https://www.albion-online-data.com/api/v2/stats/prices/{}?locations=Caerleon,Bridgewatch,Lymhurst,FortSterling,Thetford,Martlock&qualities=0".format(y))
+     with open('ROCK.json', 'wb') as outf:
+         outf.write(response.content)
+
+     with open('ROCK.json') as f:
+         data = json.load(f)
+         S = ''  
+         S = data
+         Bridgewatch = S[0]
+         Lymhurst = S[3]
+         FortSterling = S[2]
+         Martlock = S[4]
+         Carleon = S[1]
+         Thetford = S[-1]
+          
+         City = [Carleon,Bridgewatch,Lymhurst,FortSterling,Thetford,Martlock]
+         for x in City:
+           print("Buy "+y+" in "+str(x["city"])+" for: " + str(x["sell_price_min"]))
+Slate()
